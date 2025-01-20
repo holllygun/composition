@@ -1,0 +1,52 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+li {
+  list-style-type: none;
+  display: flex;
+  align-items: flex-start;
+}
+
+.searchbar{
+  position: relative;
+  width: 100%;
+  border: 1px solid rgb(10, 10, 65);
+  height: 40px;
+  border-radius: 10px;
+}
+
+.searchbutton {
+  width: 20%;
+  background-color: rgb(186, 107, 11);
+  position: absolute;
+  right: 0;
+}
+
+main {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.options {
+  display: flex;
+  gap: 10px; 
+}
+
+.all_pages {
+  display: flex;
+  gap: 10px;
+  
+}
